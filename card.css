@@ -1,0 +1,56 @@
+:root{
+    --font:"Roboto", sans-serif;
+
+}
+
+.card{
+    display: grid;
+    width: 330px;
+    height: 200px;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    background-color: white;
+    grid-template-columns: 1fr 40fr;
+    padding-right: 10px;
+    
+}
+.card-items{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 20px 0;
+    margin-left: 15px;
+}
+
+
+.mark{
+    place-self: stretch stretch;
+    max-height: 200px;
+    border-radius:8px 0px 0px 8px   ;
+    background-color: orange;
+
+}
+.card-head{
+    font-family:var(--font);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+
+}
+
+.card-text{
+    font-family:var(--font);
+    text-wrap:wrap;
+    padding-right: 30px;
+}
+
+.icons{
+    display: flex;
+    place-self: end ;
+    gap: 5px;
+    margin-top: 30px;
+    height: 20px;
+   
+}
+
+
